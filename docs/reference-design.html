@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline-variant": "#49473e",
+                      "inverse-on-surface": "#29313d",
+                      "on-tertiary": "#29313d",
+                      "secondary-fixed-dim": "#cbc7b1",
+                      "outline": "#949186",
+                      "tertiary-container": "#d1d9e9",
+                      "secondary-fixed": "#e8e3cc",
+                      "inverse-surface": "#dbe3f3",
+                      "error": "#ffb4ab",
+                      "surface-container-high": "#222a37",
+                      "on-error-container": "#ffdad6",
+                      "primary-container": "#ded9c1",
+                      "on-tertiary-fixed": "#141c28",
+                      "on-secondary-container": "#bdb9a3",
+                      "on-tertiary-container": "#575f6d",
+                      "secondary-container": "#4c4a39",
+                      "surface-container-low": "#141c28",
+                      "on-primary-container": "#615f4c",
+                      "on-background": "#dbe3f3",
+                      "background": "#0c141f",
+                      "on-secondary-fixed": "#1d1c0e",
+                      "surface-container-highest": "#2d3542",
+                      "on-surface-variant": "#cac6bb",
+                      "primary-fixed-dim": "#ccc7af",
+                      "on-error": "#690005",
+                      "tertiary": "#f2f5ff",
+                      "on-primary": "#333120",
+                      "on-surface": "#dbe3f3",
+                      "surface-variant": "#2d3542",
+                      "surface-dim": "#0c141f",
+                      "tertiary-fixed": "#dbe3f3",
+                      "primary": "#fbf5dc",
+                      "surface-container-lowest": "#070f1a",
+                      "surface-container": "#18202c",
+                      "on-secondary-fixed-variant": "#494737",
+                      "primary-fixed": "#e8e3cb",
+                      "tertiary-fixed-dim": "#bfc7d7",
+                      "inverse-primary": "#625f4c",
+                      "surface-tint": "#ccc7af",
+                      "surface-bright": "#323a46",
+                      "on-primary-fixed-variant": "#4a4735",
+                      "surface": "#0c141f",
+                      "error-container": "#93000a",
+                      "secondary": "#cbc7b1",
+                      "on-secondary": "#333122",
+                      "on-tertiary-fixed-variant": "#3f4754",
+                      "on-primary-fixed": "#1e1c0d"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "outfit": ["Outfit", "sans-serif"],
+                      "instrument": ["Instrument Serif", "serif"],
+                      "mono": ["JetBrains Mono", "monospace"]
+              }
+            },
+          }
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+            font-size: 1.5rem;
+        }
+        .glass-panel {
+            background: rgba(50, 58, 70, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+      </style>
+</head>
+<body class="bg-background text-on-surface font-outfit selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 z-50 flex justify-between items-center w-full px-8 py-4 max-w-full mx-auto bg-[#0c141f] border-none">
+<div class="text-xl font-bold font-outfit bg-gradient-to-r from-[#ded9c1] to-[#b4b09b] bg-clip-text text-transparent">
+            Altius Lexia
+        </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#fbf5dc] border-b border-[#ded9c1] pb-1 transition-colors duration-300" href="#">Practicas</a>
+<a class="text-[#94a3b8] font-outfit hover:text-[#fbf5dc] transition-colors duration-300" href="#">Sectores</a>
+<a class="text-[#94a3b8] font-outfit hover:text-[#fbf5dc] transition-colors duration-300" href="#">Insights</a>
+<a class="text-[#94a3b8] font-outfit hover:text-[#fbf5dc] transition-colors duration-300" href="#">Nosotros</a>
+<a class="text-[#94a3b8] font-outfit hover:text-[#fbf5dc] transition-colors duration-300" href="#">Contacto</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 font-bold hover:opacity-80 transition-all duration-200">
+            Contact Us
+        </button>
+</nav>
+<main>
+<!-- HERO SECTION -->
+<section class="min-h-screen flex flex-col md:flex-row pt-20">
+<div class="w-full md:w-[55%] flex flex-col justify-center px-12 md:px-24 py-20">
+<div class="mb-6">
+<span class="font-mono text-xs tracking-widest text-primary-container uppercase">Legal Infrastructure</span>
+</div>
+<h1 class="text-5xl md:text-7xl font-bold leading-tight mb-8 text-[#fbf5dc]">
+                    El derecho a la velocidad de tu codigo.
+                </h1>
+<p class="font-instrument italic text-2xl md:text-3xl text-outline mb-12 leading-relaxed">
+                    Sistemas legales arquitectónicos para la economía digital de vanguardia.
+                </p>
+<div>
+<button class="bg-[#ded9c1] text-[#1e1c0d] px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all">
+                        AGENDAR CONSULTA ESTRATEGICA
+                    </button>
+</div>
+</div>
+<div class="w-full md:w-[45%] relative bg-surface-container-low overflow-hidden">
+<div class="absolute inset-0 opacity-40">
+<div class="absolute top-0 right-0 w-full h-full bg-[linear-gradient(45deg,#0c141f_25%,transparent_25%,transparent_50%,#0c141f_50%,#0c141f_75%,transparent_75%,transparent)] bg-[length:64px_64px]"></div>
+</div>
+<div class="relative h-full w-full flex items-center justify-center p-12">
+<div class="w-full aspect-square border-l border-t border-primary-container/20 relative">
+<div class="absolute bottom-0 right-0 w-3/4 h-3/4 bg-primary-container/5 border border-primary-container/10"></div>
+<div class="absolute top-1/4 left-1/4 w-1/2 h-1/2 border border-primary-container/40"></div>
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-overlay grayscale opacity-60" data-alt="abstract geometric composition with sharp architectural lines, interlocking shapes in champagne gold and slate grey, premium aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5xmdkViHu-c4rTEAb3LS1kuKURtSDcwOhNC4Jn_Qe7KRTDjNKZS0nQn6htlUgah7Q8UUZmy37p4HFczz7DruMzPzpSQ1XFiWMt-kK_qgHqcvXJMPoIMXCCNq3BykZFe_roS402mvriE0C6GVREodTAlMgSe0YiCU1IPhxid__WH_kCBnVON5bW-GKlBw431BIkorkG1LPnOWgfKqUPT73y73cfGRaI795lsNKsk0tgnqCLZhGvIszxp5NMpE1u0CZvCOGsP1kfz0"/>
+</div>
+</div>
+</div>
+</section>
+<!-- VALUE PROP -->
+<section class="bg-[#F8FAFC] py-32 px-12 md:px-24">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-[40%_30%_30%] gap-12">
+<div class="border-t-[1px] border-[#ded9c1] pt-8">
+<h2 class="text-3xl font-bold text-surface mb-6">Vision Global</h2>
+<p class="text-outline text-lg leading-relaxed">Navegamos marcos regulatorios internacionales con la precisión de un arquitecto, garantizando escalabilidad sin fronteras.</p>
+</div>
+<div class="border-t-[1px] border-[#ded9c1] pt-8">
+<h2 class="text-3xl font-bold text-surface mb-6">ADN Tecnologico</h2>
+<p class="text-outline text-lg leading-relaxed">Hablamos el lenguaje del software. Entendemos el despliegue, la seguridad y la iteración técnica desde la raíz.</p>
+</div>
+<div class="border-t-[1px] border-[#ded9c1] pt-8">
+<h2 class="text-3xl font-bold text-surface mb-6">Agilidad</h2>
+<p class="text-outline text-lg leading-relaxed">La ley no debe ser un cuello de botella. Implementamos soluciones dinámicas al ritmo del mercado.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- PRACTICAS -->
+<section class="bg-[#0c141f] py-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-12 md:px-24">
+<div class="mb-24">
+<span class="font-mono text-xs tracking-widest text-primary-container uppercase">Core Expertise</span>
+<h2 class="text-4xl md:text-5xl font-bold mt-4 text-[#fbf5dc]">Áreas de Práctica</h2>
+</div>
+<div class="space-y-40">
+<!-- Practice 01 -->
+<div class="flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2">
+<h3 class="text-6xl font-bold text-primary-container/20 mb-4 font-mono">01</h3>
+<h4 class="text-4xl font-bold text-[#fbf5dc] mb-6">Privacidad de Datos</h4>
+<p class="text-outline text-xl leading-relaxed max-w-lg">Diseño de estructuras de cumplimiento que protegen el activo más valioso de su empresa sin comprometer la experiencia del usuario.</p>
+</div>
+<div class="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/30 relative">
+<div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent"></div>
+<div class="absolute center flex items-center justify-center w-full h-full">
+<img class="w-full h-full object-cover opacity-20 grayscale" data-alt="abstract network of thin glowing lines and dots on a deep navy background representing digital data flow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMu2VJYeFpscqM5CmpY3_PGsQGXFsYO28-fhQ-bVb2RjVMDoFGm7bzkgaqz8qXWTtdLQjyAuvUroJw5ITskvYZoSO6DJHOAT3GfJlvXZP1QvAVICZZSzyMvE7MMz4n8-uHQWPuRGGDgFj4jEXtuVCFy8Jq22NzjbEedtjTd4tqQDIlOyU2xiMSvuuunwgOc1B6ggEL3aQQ1U0TEz0nZYzTRrJize1JBt_0_VcWjOu0GYGIqna1Z7lNJI9z2aKxNLHoNUh6VuXCjIA"/>
+</div>
+</div>
+</div>
+<!-- Practice 02 -->
+<div class="flex flex-col md:flex-row-reverse items-center gap-20">
+<div class="w-full md:w-1/2">
+<h3 class="text-6xl font-bold text-primary-container/20 mb-4 font-mono">02</h3>
+<h4 class="text-4xl font-bold text-[#fbf5dc] mb-6">Ciberseguridad</h4>
+<p class="text-outline text-xl leading-relaxed max-w-lg">Protocolos legales de respuesta ante incidentes y blindaje preventivo contra amenazas digitales complejas.</p>
+</div>
+<div class="w-full md:w-1/2 h-64 border-b border-l border-outline-variant/30 relative">
+<div class="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-primary-container/5 to-transparent"></div>
+<img class="w-full h-full object-cover opacity-20 grayscale" data-alt="minimalist architectural rendering of interconnected structural circuits and thin linear patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC16aTxWmJ_OwemfLHWpYxpsjPQNnWQOt2M__lIIgZ3_bOhAzTWIqhHAijMb4PwxAc_DPZbAne-pQP2N6jNpTMp4-M2Shm8aN_AawH9qzEYgbeBF8zUs9CM08Uj1xv7L_sMYC26JjuAmlZLktRL1_NPDKzOmiwSylHhnxv4JTF_6f8Yk-RUBH7f5WRLzbi1K14754_F1hScnpuiuh2GAqfEpiwcBd-q9zBN33uFk11D1m-evotwl44engkA3B_xvv67554vpVbjSqI"/>
+</div>
+</div>
+<!-- Practice 03 -->
+<div class="flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2">
+<h3 class="text-6xl font-bold text-primary-container/20 mb-4 font-mono">03</h3>
+<h4 class="text-4xl font-bold text-[#fbf5dc] mb-6">Propiedad Intelectual</h4>
+<p class="text-outline text-xl leading-relaxed max-w-lg">Protección estratégica de algoritmos, patentes de software y activos intangibles en la frontera de la innovación.</p>
+</div>
+<div class="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/30 relative">
+<div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent"></div>
+<img class="w-full h-full object-cover opacity-20 grayscale" data-alt="macro photograph of an integrated circuit board with intricate copper pathways and precise geometric layout" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqnRh65zE-PQjIEg8HY1Yy9B6aSax7GC8JZdB6T2w1FXodtnL5X3ZosocUqedUzq-6DN8bemYIc8bPM_VRKugnKyVsr6I5tx6rJu4Fe0FbFgjpjPFW8c6MGNPRAhEo35n75zXvrxlslmpZkJSgbKZe2wq3_BMZqN9FLfKjt7GoO7RkBSMDoFC6SL7P90GWYMy7_o8yGlg8B6afiYPM-8DV988u85gRoMA5e1zBUgicW8Qm4HmwErDJNKpO5-HY5orwjdgm-CWyTGw"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTORES -->
+<section class="bg-[#F8FAFC] py-32 px-12 md:px-24">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16">
+<span class="font-mono text-xs tracking-widest text-[#49473e] uppercase">Verticals</span>
+<h2 class="text-4xl font-bold text-surface mt-4">Sectores Estratégicos</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-10 gap-6">
+<!-- Startups -->
+<div class="md:col-span-6 bg-white p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between group hover:bg-[#ded9c1]/5 transition-colors">
+<div>
+<h3 class="text-4xl font-bold text-surface mb-4">Startups</h3>
+<p class="text-outline text-lg max-w-md">De la semilla al exit. Acompañamos el crecimiento exponencial con bases legales sólidas.</p>
+</div>
+<div class="mt-12 flex justify-end">
+<span class="font-mono text-xs text-outline group-hover:text-surface transition-colors">01 / GLOBAL SCALE</span>
+</div>
+</div>
+<!-- Fintech -->
+<div class="md:col-span-4 bg-white p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-[#ded9c1]/5 transition-colors">
+<div>
+<h3 class="text-3xl font-bold text-surface mb-4">Fintech</h3>
+<p class="text-outline text-base">Regulaciones financieras digitales y cumplimiento de pagos complejos.</p>
+</div>
+<div class="mt-8">
+<span class="font-mono text-xs text-outline">02 / COMPLIANCE</span>
+</div>
+</div>
+<!-- SaaS -->
+<div class="md:col-span-4 bg-white p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-[#ded9c1]/5 transition-colors">
+<div>
+<h3 class="text-3xl font-bold text-surface mb-4">SaaS</h3>
+<p class="text-outline text-base">Modelos de suscripción, términos de servicio y SLAs de alta disponibilidad.</p>
+</div>
+<div class="mt-8">
+<span class="font-mono text-xs text-outline">03 / OPERATIONS</span>
+</div>
+</div>
+<!-- E-commerce -->
+<div class="md:col-span-6 bg-white p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-[#ded9c1]/5 transition-colors">
+<div>
+<h3 class="text-3xl font-bold text-surface mb-4">E-commerce</h3>
+<p class="text-outline text-base">Logística digital, derechos del consumidor y transacciones transfronterizas.</p>
+</div>
+<div class="mt-8 flex justify-end">
+<span class="font-mono text-xs text-outline">04 / COMMERCE</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- NOSOTROS -->
+<section class="bg-surface py-40 px-12 md:px-24 relative overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-24 items-center">
+<div class="w-full md:w-1/2">
+<p class="font-instrument italic text-4xl md:text-6xl text-[#fbf5dc] leading-tight mb-12">
+                        "Donde la Ley y la Tecnologia convergen para crear el futuro de la infraestructura empresarial."
+                    </p>
+<div class="flex flex-wrap gap-12 mt-20">
+<div class="border-l border-[#ded9c1] pl-6">
+<span class="block text-2xl font-bold text-[#fbf5dc]">500+</span>
+<span class="font-mono text-[10px] uppercase tracking-widest text-outline">Casos Exitosos</span>
+</div>
+<div class="border-l border-[#ded9c1] pl-6">
+<span class="block text-2xl font-bold text-[#fbf5dc]">12</span>
+<span class="font-mono text-[10px] uppercase tracking-widest text-outline">Jurisdicciones</span>
+</div>
+<div class="border-l border-[#ded9c1] pl-6">
+<span class="block text-2xl font-bold text-[#fbf5dc]">24/7</span>
+<span class="font-mono text-[10px] uppercase tracking-widest text-outline">Respuesta Ágil</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative">
+<div class="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
+<img class="w-full h-full object-cover grayscale opacity-50" data-alt="modern minimalist law office interior with floor to ceiling windows, glass walls, and clean architectural lines at dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3SJXcuAvy7v7FG-8aGU6Jg7O6E2rWG99opySJxSzo2GLgrs8Q_OR1IOrYqgICqsSSaYMm4ZWK82m1YPj4zSv33U3Ooa6XJCirQ7XHpWw1uvYt1YS-ElWAo_iDWc-A-yt2CFrH9CLcvBlk7sxZPneNmVJR5jiuW_vyn-dWpTAo2chO6vhZxVmx2b5jzS_DjCLjCuEpSDBK5xTuNuVM_r1X6S-fzYo56SS0WrLIzKz0ycM2knERoOLN-5m0X-Lt-cODAOkxDCantiE"/>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTACTO -->
+<section class="bg-[#F8FAFC] py-32 px-12 md:px-24">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-24">
+<div class="w-full md:w-1/2">
+<h2 class="text-5xl font-bold text-surface mb-8 leading-tight">Hablemos de tu siguiente hito.</h2>
+<p class="text-outline text-xl mb-12 max-w-md">Nuestro equipo está listo para integrar la arquitectura legal que tu proyecto tecnológico requiere.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#ded9c1]">mail</span>
+<span class="text-surface font-mono">strategy@altiuslexia.com</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#ded9c1]">location_on</span>
+<span class="text-surface font-mono">Silicon Valley | Madrid | Mexico City</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 bg-surface p-10 md:p-16 rounded-sm shadow-xl">
+<form class="space-y-8">
+<div class="group">
+<label class="block font-mono text-[10px] uppercase tracking-widest text-[#49473e] mb-2 group-focus-within:text-primary-container transition-colors">Nombre Completo</label>
+<input class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant text-on-surface py-4 focus:ring-0 focus:border-primary-container transition-all" placeholder="Juan Pérez" type="text"/>
+</div>
+<div class="group">
+<label class="block font-mono text-[10px] uppercase tracking-widest text-[#49473e] mb-2 group-focus-within:text-primary-container transition-colors">Email Corporativo</label>
+<input class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant text-on-surface py-4 focus:ring-0 focus:border-primary-container transition-all" placeholder="juan@startup.com" type="email"/>
+</div>
+<div class="group">
+<label class="block font-mono text-[10px] uppercase tracking-widest text-[#49473e] mb-2 group-focus-within:text-primary-container transition-colors">Mensaje</label>
+<textarea class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant text-on-surface py-4 focus:ring-0 focus:border-primary-container transition-all" placeholder="Cuéntanos sobre tu proyecto..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 transition-all uppercase text-xs">Enviar Solicitud</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#070f1a] border-t border-[#49473e]/15 w-full px-12 py-12">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col gap-2">
+<div class="text-lg font-bold font-outfit text-[#ded9c1]">Altius Lexia</div>
+<p class="text-sm font-outfit text-[#94a3b8]">© 2024 Altius Lexia. Architectural Legal Systems.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-mono text-[10px] uppercase tracking-widest text-[#94a3b8] hover:text-[#ded9c1] transition-colors duration-200" href="#">Privacy Policy</a>
+<a class="font-mono text-[10px] uppercase tracking-widest text-[#94a3b8] hover:text-[#ded9c1] transition-colors duration-200" href="#">Terms of Service</a>
+<a class="font-mono text-[10px] uppercase tracking-widest text-[#94a3b8] hover:text-[#ded9c1] transition-colors duration-200" href="#">Legal Notice</a>
+<a class="font-mono text-[10px] uppercase tracking-widest text-[#94a3b8] hover:text-[#ded9c1] transition-colors duration-200" href="#">Sitemap</a>
+</div>
+</div>
+</footer>
+</body></html>
