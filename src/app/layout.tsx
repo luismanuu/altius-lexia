@@ -26,7 +26,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Altius Lexia — Legal Tech | Privacidad, Ciberseguridad, IP",
   description:
-    "Firma estrategica en Ecuador especializada en Privacidad de Datos, Ciberseguridad y Propiedad Intelectual para empresas de tecnologia.",
+    "Firma estratégica en Ecuador especializada en Privacidad de Datos, Ciberseguridad y Propiedad Intelectual para empresas de tecnología.",
 };
 
 export default function RootLayout({

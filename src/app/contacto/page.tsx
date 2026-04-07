@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contacto — Altius Lexia",
   description:
-    "Agenda una consulta estrategica. Procesamos tu solicitud en menos de 24 horas laborables.",
+    "Agenda una consulta estratégica. Procesamos tu solicitud en menos de 24 horas laborables.",
 };
 
 export default function ContactoPage() {
@@ -27,8 +27,8 @@ export default function ContactoPage() {
           {/* Left: Info */}
           <div className="w-full md:w-5/12">
             <p className="text-outline text-lg md:text-xl mb-12 max-w-md leading-relaxed">
-              Nuestro equipo esta listo para integrar la arquitectura legal que
-              tu proyecto tecnologico requiere.
+              Nuestro equipo está listo para integrar la arquitectura legal que
+              tu proyecto tecnológico requiere.
             </p>
 
             <div className="space-y-6 mb-12">
@@ -37,7 +37,7 @@ export default function ContactoPage() {
                   mail
                 </span>
                 <span className="font-mono text-sm text-on-surface">
-                  strategy@altiuslexia.com
+                  nexus@altiuslexia.com
                 </span>
               </div>
               <div className="flex items-center gap-4">
@@ -86,7 +86,7 @@ export default function ContactoPage() {
                   </label>
                   <input
                     type="text"
-                    placeholder="Juan Perez"
+                    placeholder="Juan Pérez"
                     className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                   />
                 </div>
@@ -131,7 +131,7 @@ export default function ContactoPage() {
                   Mensaje
                 </label>
                 <textarea
-                  placeholder="Cuentanos sobre tu proyecto y los desafios legales que enfrentas..."
+                  placeholder="Cuéntanos sobre tu proyecto y los desafíos legales que enfrentas..."
                   rows={5}
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all resize-none"
                 />
@@ -145,7 +145,7 @@ export default function ContactoPage() {
               </button>
 
               <p className="font-mono text-[10px] text-outline-variant text-center uppercase tracking-wider">
-                Su informacion esta protegida bajo nuestras politicas de
+                Su información está protegida bajo nuestras políticas de
                 privacidad
               </p>
             </form>
@@ -157,7 +157,7 @@ export default function ContactoPage() {
       <section className="bg-surface-container-lowest py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { city: "Quito", address: "Av. Republica del Salvador N34-127", type: "Sede Principal" },
+            { city: "Quito", address: "Av. República del Salvador N34-127", type: "Sede Principal" },
             { city: "Guayaquil", address: "Av. Francisco de Orellana, Edificio Trade Building", type: "Oficina Regional" },
             { city: "Miami", address: "1221 Brickell Avenue, Suite 900", type: "Operaciones LATAM" },
           ].map((office) => (

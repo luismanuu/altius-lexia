@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Practicas — Altius Lexia",
+  title: "Prácticas — Altius Lexia",
   description:
-    "Privacidad de Datos, Ciberseguridad Legal y Propiedad Intelectual para empresas de tecnologia en Ecuador.",
+    "Privacidad de Datos, Ciberseguridad Legal y Propiedad Intelectual para empresas de tecnología en Ecuador.",
 };
 
 const practices = [
   {
     num: "01",
-    title: "Privacidad y Proteccion de Datos",
+    title: "Privacidad y Protección de Datos",
     headline: "Privacidad como Ventaja Competitiva.",
     body: "En un mercado regulado por la LOPDP, el cumplimiento no es un freno, es un generador de confianza.",
     services: [
-      "Implementacion integral de la Ley Organica de Proteccion de Datos Personales (Ecuador).",
-      "Auditorias de impacto y Evaluaciones de Riesgo.",
-      "DPO (Delegado de Proteccion de Datos) Externo.",
+      "Implementación integral de la Ley Orgánica de Protección de Datos Personales (Ecuador).",
+      "Auditorías de impacto y Evaluaciones de Riesgo.",
+      "DPO (Delegado de Protección de Datos) Externo.",
       "Transferencias internacionales de datos y Cloud Compliance.",
     ],
   },
@@ -24,12 +24,12 @@ const practices = [
     num: "02",
     title: "Ciberseguridad Legal",
     headline: "Resiliencia ante la Amenaza Digital.",
-    body: "La seguridad de la informacion es un imperativo juridico. Protegemos tu responsabilidad legal frente a incidentes.",
+    body: "La seguridad de la información es un imperativo jurídico. Protegemos tu responsabilidad legal frente a incidentes.",
     services: [
-      "Gestion legal de brechas de seguridad y respuesta a incidentes.",
-      "Protocolos de preservacion de evidencia digital.",
+      "Gestión legal de brechas de seguridad y respuesta a incidentes.",
+      "Protocolos de preservación de evidencia digital.",
       "Cumplimiento de normativas de seguridad para el sector financiero.",
-      "Programas de concientizacion legal para equipos tecnicos.",
+      "Programas de concientización legal para equipos técnicos.",
     ],
   },
   {
@@ -38,10 +38,10 @@ const practices = [
     headline: "Blindaje de Activos Intangibles.",
     body: "Tu software y tu marca son tu mayor patrimonio. Los protegemos en Ecuador y en mercados globales.",
     services: [
-      "Proteccion de Software y Derechos de Autor.",
+      "Protección de Software y Derechos de Autor.",
       "Estrategia de Secretos Industriales y Acuerdos de Confidencialidad (NDA).",
       "Registro de Marcas y Patentes Tech.",
-      "Licenciamiento de Software (SaaS) y transferencia tecnologica.",
+      "Licenciamiento de Software (SaaS) y transferencia tecnológica.",
     ],
   },
 ];
@@ -56,11 +56,11 @@ export default function PracticasPage() {
             Servicios Legales
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-primary mt-4 mb-6">
-            Areas de Practica
+            Áreas de Práctica
           </h1>
           <p className="font-instrument italic text-xl md:text-2xl text-outline max-w-2xl leading-relaxed">
-            Tres pilares estrategicos disenados para la economia digital de
-            Ecuador y la region.
+            Tres pilares estratégicos diseñados para la economía digital de
+            Ecuador y la región.
           </p>
         </div>
       </section>
@@ -139,10 +139,10 @@ export default function PracticasPage() {
       <section className="bg-light-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-surface mb-6">
-            Protege tu innovacion hoy.
+            Protege tu innovación hoy.
           </h2>
           <p className="text-outline text-lg mb-10 max-w-xl mx-auto">
-            Agenda una consulta estrategica con nuestro equipo y descubre como
+            Agenda una consulta estratégica con nuestro equipo y descubre cómo
             podemos fortalecer tu estructura legal.
           </p>
           <Link

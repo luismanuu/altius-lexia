@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sectores — Altius Lexia",
   description:
-    "Servimos a Startups, Fintech, SaaS y E-commerce con asesoria legal especializada en tecnologia.",
+    "Servimos a Startups, Fintech, SaaS y E-commerce con asesoría legal especializada en tecnología.",
 };
 
 const sectors = [
@@ -13,11 +13,11 @@ const sectors = [
     title: "Startups (Early Stage)",
     tag: "GLOBAL SCALE",
     description:
-      "Estructuracion legal para rondas de inversion y proteccion de IP desde el dia 1.",
+      "Estructuración legal para rondas de inversión y protección de IP desde el día 1.",
     details: [
       "Due diligence legal para rondas seed y Serie A",
-      "Estructuracion societaria optimizada para inversion extranjera",
-      "Proteccion de propiedad intelectual desde la incorporacion",
+      "Estructuración societaria optimizada para inversión extranjera",
+      "Protección de propiedad intelectual desde la incorporación",
       "Acuerdos de fundadores, vesting y cap tables",
     ],
     large: true,
@@ -27,12 +27,12 @@ const sectors = [
     title: "Fintech",
     tag: "COMPLIANCE",
     description:
-      "Navegacion regulatoria ante la Junta de Politica y Regulacion Financiera.",
+      "Navegación regulatoria ante la Junta de Política y Regulación Financiera.",
     details: [
       "Licenciamiento ante reguladores financieros",
       "Cumplimiento anti-lavado (AML/KYC)",
       "Contratos de pasarelas de pago y billeteras digitales",
-      "Proteccion de datos financieros sensibles",
+      "Protección de datos financieros sensibles",
     ],
     large: false,
   },
@@ -41,12 +41,12 @@ const sectors = [
     title: "Software & SaaS",
     tag: "OPERATIONS",
     description:
-      "Contratos de nivel de servicio (SLA) y terminos y condiciones robustos.",
+      "Contratos de nivel de servicio (SLA) y términos y condiciones robustos.",
     details: [
-      "Terminos de servicio y politicas de privacidad",
+      "Términos de servicio y políticas de privacidad",
       "Acuerdos SLA y uptime guarantees",
-      "Licenciamiento de software y modelos de suscripcion",
-      "Proteccion de codigo fuente y trade secrets",
+      "Licenciamiento de software y modelos de suscripción",
+      "Protección de código fuente y trade secrets",
     ],
     large: false,
   },
@@ -55,11 +55,11 @@ const sectors = [
     title: "E-commerce",
     tag: "COMMERCE",
     description:
-      "Proteccion al consumidor digital y logistica de datos masivos.",
+      "Protección al consumidor digital y logística de datos masivos.",
     details: [
-      "Cumplimiento de proteccion al consumidor digital",
-      "Politicas de devolucion y terminos de compra",
-      "Gestion de datos de clientes y marketing digital",
+      "Cumplimiento de protección al consumidor digital",
+      "Políticas de devolución y términos de compra",
+      "Gestión de datos de clientes y marketing digital",
       "Regulaciones de comercio transfronterizo",
     ],
     large: true,
@@ -76,11 +76,11 @@ export default function SectoresPage() {
             Verticales de Industria
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-primary mt-4 mb-6">
-            Sectores Estrategicos
+            Sectores Estratégicos
           </h1>
           <p className="font-instrument italic text-xl md:text-2xl text-outline max-w-2xl leading-relaxed">
-            Conocimiento profundo de las industrias que estan redefiniendo la
-            economia digital en la region.
+            Conocimiento profundo de las industrias que están redefiniendo la
+            economía digital en la región.
           </p>
         </div>
       </section>
@@ -144,7 +144,7 @@ export default function SectoresPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-24">
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-              Tu industria necesita asesoria especializada.
+              Tu industria necesita asesoría especializada.
             </h2>
             <p className="text-outline text-lg leading-relaxed">
               No importa la etapa de tu empresa. Diseñamos estrategias legales

@@ -4,34 +4,34 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Nosotros — Altius Lexia",
   description:
-    "Donde la Ley y la Tecnologia convergen. Conoce la firma legal tech de Ecuador.",
+    "Donde la Ley y la Tecnología convergen. Conoce la firma legal tech de Ecuador.",
 };
 
 const stats = [
   { value: "500+", label: "Casos Exitosos" },
   { value: "12", label: "Jurisdicciones" },
-  { value: "24/7", label: "Respuesta Agil" },
+  { value: "24/7", label: "Respuesta Ágil" },
   { value: "3", label: "Especializaciones" },
 ];
 
 const values = [
   {
     icon: "shield",
-    title: "Precision Tecnica",
+    title: "Precisión Técnica",
     description:
-      "Cada estrategia legal esta respaldada por un entendimiento profundo de las arquitecturas tecnologicas de nuestros clientes.",
+      "Cada estrategia legal está respaldada por un entendimiento profundo de las arquitecturas tecnológicas de nuestros clientes.",
   },
   {
     icon: "speed",
-    title: "Velocidad de Ejecucion",
+    title: "Velocidad de Ejecución",
     description:
-      "Operamos al ritmo del ecosistema startup. Respuestas agiles sin sacrificar rigor juridico.",
+      "Operamos al ritmo del ecosistema startup. Respuestas ágiles sin sacrificar rigor jurídico.",
   },
   {
     icon: "public",
     title: "Perspectiva Global",
     description:
-      "Estandares internacionales aplicados con precision al marco legal ecuatoriano y latinoamericano.",
+      "Estándares internacionales aplicados con precisión al marco legal ecuatoriano y latinoamericano.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function NosotrosPage() {
               Nuestra Firma
             </span>
             <p className="font-instrument italic text-3xl md:text-5xl text-primary leading-tight mb-12">
-              &ldquo;Donde la Ley y la Tecnologia convergen para crear el futuro
+              &ldquo;Donde la Ley y la Tecnología convergen para crear el futuro
               de la infraestructura empresarial.&rdquo;
             </p>
             <div className="flex flex-wrap gap-8 md:gap-12">
@@ -83,14 +83,14 @@ export default function NosotrosPage() {
             </h2>
             <p className="text-outline text-lg leading-relaxed mb-6">
               No somos una firma de abogados tradicional. Nacimos de la
-              necesidad de un ecosistema tecnologico en Ecuador que exigia
+              necesidad de un ecosistema tecnológico en Ecuador que exigía
               respuestas sofisticadas.
             </p>
             <p className="text-outline text-lg leading-relaxed">
-              Nos inspiramos en los estandares globales para ofrecer una asesoria
-              tecnica-legal que permite a los fundadores y CTOs escalar con
-              seguridad juridica. Nuestra mision es ser el puente entre la
-              innovacion y el cumplimiento regulatorio.
+              Nos inspiramos en los estándares globales para ofrecer una asesoría
+              técnica-legal que permite a los fundadores y CTOs escalar con
+              seguridad jurídica. Nuestra misión es ser el puente entre la
+              innovación y el cumplimiento regulatorio.
             </p>
           </div>
         </div>
@@ -182,8 +182,8 @@ export default function NosotrosPage() {
             Construyamos juntos.
           </h2>
           <p className="text-outline text-lg mb-10 max-w-xl mx-auto">
-            Nuestro equipo esta listo para conversar sobre los desafios legales
-            de tu empresa tecnologica.
+            Nuestro equipo está listo para conversar sobre los desafíos legales
+            de tu empresa tecnológica.
           </p>
           <Link
             href="/contacto"

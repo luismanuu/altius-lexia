@@ -12,10 +12,10 @@ export default function Home() {
             </span>
           </div>
           <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-8 text-primary">
-            El derecho a la velocidad de tu codigo.
+            El derecho a la velocidad de tu código.
           </h1>
           <p className="font-instrument italic text-xl md:text-3xl text-outline mb-12 leading-relaxed">
-            Sistemas legales arquitectonicos para la economia digital de
+            Sistemas legales arquitectónicos para la economía digital de
             vanguardia.
           </p>
           <div>
@@ -23,7 +23,7 @@ export default function Home() {
               href="/contacto"
               className="inline-block bg-primary-container text-[#1e1c0d] px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
             >
-              AGENDAR CONSULTA ESTRATEGICA
+              AGENDAR CONSULTA ESTRATÉGICA
             </Link>
           </div>
         </div>
@@ -51,16 +51,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-[40%_30%_30%] gap-12">
             {[
               {
-                title: "Vision Global",
-                text: "Navegamos marcos regulatorios internacionales con la precision de un arquitecto, garantizando escalabilidad sin fronteras.",
+                title: "Visión Global",
+                text: "Navegamos marcos regulatorios internacionales con la precisión de un arquitecto, garantizando escalabilidad sin fronteras.",
               },
               {
-                title: "ADN Tecnologico",
-                text: "Hablamos el lenguaje del software. Entendemos el despliegue, la seguridad y la iteracion tecnica desde la raiz.",
+                title: "ADN Tecnológico",
+                text: "Hablamos el lenguaje del software. Entendemos el despliegue, la seguridad y la iteración técnica desde la raíz.",
               },
               {
                 title: "Agilidad",
-                text: "La ley no debe ser un cuello de botella. Implementamos soluciones dinamicas al ritmo del mercado.",
+                text: "La ley no debe ser un cuello de botella. Implementamos soluciones dinámicas al ritmo del mercado.",
               },
             ].map((item) => (
               <div key={item.title} className="border-t-[1px] border-primary-container pt-8">
@@ -84,7 +84,7 @@ export default function Home() {
               Core Expertise
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 text-primary">
-              Areas de Practica
+              Áreas de Práctica
             </h2>
           </div>
           <div className="space-y-24 md:space-y-40">
@@ -98,8 +98,8 @@ export default function Home() {
                   Privacidad de Datos
                 </h4>
                 <p className="text-outline text-lg md:text-xl leading-relaxed max-w-lg">
-                  Diseno de estructuras de cumplimiento que protegen el activo
-                  mas valioso de su empresa sin comprometer la experiencia del
+                  Diseño de estructuras de cumplimiento que protegen el activo
+                  más valioso de su empresa sin comprometer la experiencia del
                   usuario.
                 </p>
               </div>
@@ -147,8 +147,8 @@ export default function Home() {
                   Propiedad Intelectual
                 </h4>
                 <p className="text-outline text-lg md:text-xl leading-relaxed max-w-lg">
-                  Proteccion estrategica de algoritmos, patentes de software y
-                  activos intangibles en la frontera de la innovacion.
+                  Protección estratégica de algoritmos, patentes de software y
+                  activos intangibles en la frontera de la innovación.
                 </p>
               </div>
               <div className="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/30 relative">
@@ -172,7 +172,7 @@ export default function Home() {
               Verticals
             </span>
             <h2 className="text-4xl font-bold text-surface mt-4">
-              Sectores Estrategicos
+              Sectores Estratégicos
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
@@ -182,8 +182,8 @@ export default function Home() {
                   Startups
                 </h3>
                 <p className="text-outline text-lg max-w-md">
-                  De la semilla al exit. Acompanamos el crecimiento exponencial
-                  con bases legales solidas.
+                  De la semilla al exit. Acompañamos el crecimiento exponencial
+                  con bases legales sólidas.
                 </p>
               </div>
               <div className="mt-12 flex justify-end">
@@ -216,7 +216,7 @@ export default function Home() {
                   SaaS
                 </h3>
                 <p className="text-outline text-base">
-                  Modelos de suscripcion, terminos de servicio y SLAs de alta
+                  Modelos de suscripción, términos de servicio y SLAs de alta
                   disponibilidad.
                 </p>
               </div>
@@ -233,7 +233,7 @@ export default function Home() {
                   E-commerce
                 </h3>
                 <p className="text-outline text-base">
-                  Logistica digital, derechos del consumidor y transacciones
+                  Logística digital, derechos del consumidor y transacciones
                   transfronterizas.
                 </p>
               </div>
@@ -252,7 +252,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24 items-center">
           <div className="w-full md:w-1/2">
             <p className="font-instrument italic text-3xl md:text-6xl text-primary leading-tight mb-12">
-              &ldquo;Donde la Ley y la Tecnologia convergen para crear el futuro
+              &ldquo;Donde la Ley y la Tecnología convergen para crear el futuro
               de la infraestructura empresarial.&rdquo;
             </p>
             <div className="flex flex-wrap gap-8 md:gap-12 mt-12 md:mt-20">
@@ -277,7 +277,7 @@ export default function Home() {
                   24/7
                 </span>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                  Respuesta Agil
+                  Respuesta Ágil
                 </span>
               </div>
             </div>
@@ -302,8 +302,8 @@ export default function Home() {
               Hablemos de tu siguiente hito.
             </h2>
             <p className="text-outline text-lg md:text-xl mb-12 max-w-md">
-              Nuestro equipo esta listo para integrar la arquitectura legal que
-              tu proyecto tecnologico requiere.
+              Nuestro equipo está listo para integrar la arquitectura legal que
+              tu proyecto tecnológico requiere.
             </p>
             <div className="space-y-6">
               <div className="flex items-center gap-4">
@@ -311,7 +311,7 @@ export default function Home() {
                   mail
                 </span>
                 <span className="text-surface font-mono text-sm">
-                  strategy@altiuslexia.com
+                  nexus@altiuslexia.com
                 </span>
               </div>
               <div className="flex items-center gap-4">
@@ -332,7 +332,7 @@ export default function Home() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Juan Perez"
+                  placeholder="Juan Pérez"
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                 />
               </div>
@@ -351,7 +351,7 @@ export default function Home() {
                   Mensaje
                 </label>
                 <textarea
-                  placeholder="Cuentanos sobre tu proyecto..."
+                  placeholder="Cuéntanos sobre tu proyecto..."
                   rows={4}
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all resize-none"
                 />
