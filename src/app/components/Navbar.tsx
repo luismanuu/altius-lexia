@@ -19,11 +19,8 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 z-50 flex justify-between items-center w-full px-6 md:px-8 py-4 bg-surface/90 backdrop-blur-md">
-        <Link
-          href="/"
-          className="text-xl font-bold font-outfit bg-gradient-to-r from-primary-container to-[#b4b09b] bg-clip-text text-transparent"
-        >
-          Altius Lexia
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/images/logo.webp" alt="Altius Lexia" className="h-8 w-auto" />
         </Link>
 
         <div className="hidden md:flex gap-8 items-center">

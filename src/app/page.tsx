@@ -37,8 +37,8 @@ export default function Home() {
               <div className="absolute top-1/4 left-1/4 w-1/2 h-1/2 border border-primary-container/40" />
               <img
                 className="absolute inset-0 w-full h-full object-cover mix-blend-overlay grayscale opacity-60"
-                alt="Abstract geometric composition with architectural lines"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5xmdkViHu-c4rTEAb3LS1kuKURtSDcwOhNC4Jn_Qe7KRTDjNKZS0nQn6htlUgah7Q8UUZmy37p4HFczz7DruMzPzpSQ1XFiWMt-kK_qgHqcvXJMPoIMXCCNq3BykZFe_roS402mvriE0C6GVREodTAlMgSe0YiCU1IPhxid__WH_kCBnVON5bW-GKlBw431BIkorkG1LPnOWgfKqUPT73y73cfGRaI795lsNKsk0tgnqCLZhGvIszxp5NMpE1u0CZvCOGsP1kfz0"
+                alt="Low angle view of modern glass curtain wall building"
+                src="/images/hero-building.jpg"
               />
             </div>
           </div>
@@ -107,8 +107,8 @@ export default function Home() {
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
-                  alt="Digital data flow network"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMu2VJYeFpscqM5CmpY3_PGsQGXFsYO28-fhQ-bVb2RjVMDoFGm7bzkgaqz8qXWTtdLQjyAuvUroJw5ITskvYZoSO6DJHOAT3GfJlvXZP1QvAVICZZSzyMvE7MMz4n8-uHQWPuRGGDgFj4jEXtuVCFy8Jq22NzjbEedtjTd4tqQDIlOyU2xiMSvuuunwgOc1B6ggEL3aQQ1U0TEz0nZYzTRrJize1JBt_0_VcWjOu0GYGIqna1Z7lNJI9z2aKxNLHoNUh6VuXCjIA"
+                  alt="QR codes close-up photography"
+                  src="/images/privacy-qr.jpg"
                 />
               </div>
             </div>
@@ -131,8 +131,8 @@ export default function Home() {
                 <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
-                  alt="Interconnected structural circuits"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC16aTxWmJ_OwemfLHWpYxpsjPQNnWQOt2M__lIIgZ3_bOhAzTWIqhHAijMb4PwxAc_DPZbAne-pQP2N6jNpTMp4-M2Shm8aN_AawH9qzEYgbeBF8zUs9CM08Uj1xv7L_sMYC26JjuAmlZLktRL1_NPDKzOmiwSylHhnxv4JTF_6f8Yk-RUBH7f5WRLzbi1K14754_F1hScnpuiuh2GAqfEpiwcBd-q9zBN33uFk11D1m-evotwl44engkA3B_xvv67554vpVbjSqI"
+                  alt="Computer screen with data and numbers"
+                  src="/images/cyber-screen.jpg"
                 />
               </div>
             </div>
@@ -155,8 +155,8 @@ export default function Home() {
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
-                  alt="Integrated circuit board pathways"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqnRh65zE-PQjIEg8HY1Yy9B6aSax7GC8JZdB6T2w1FXodtnL5X3ZosocUqedUzq-6DN8bemYIc8bPM_VRKugnKyVsr6I5tx6rJu4Fe0FbFgjpjPFW8c6MGNPRAhEo35n75zXvrxlslmpZkJSgbKZe2wq3_BMZqN9FLfKjt7GoO7RkBSMDoFC6SL7P90GWYMy7_o8yGlg8B6afiYPM-8DV988u85gRoMA5e1zBUgicW8Qm4HmwErDJNKpO5-HY5orwjdgm-CWyTGw"
+                  alt="Computer coding screenshot"
+                  src="/images/ip-coding.jpg"
                 />
               </div>
             </div>
@@ -286,8 +286,8 @@ export default function Home() {
             <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
               <img
                 className="w-full h-full object-cover grayscale opacity-50"
-                alt="Modern minimalist law office interior"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3SJXcuAvy7v7FG-8aGU6Jg7O6E2rWG99opySJxSzo2GLgrs8Q_OR1IOrYqgICqsSSaYMm4ZWK82m1YPj4zSv33U3Ooa6XJCirQ7XHpWw1uvYt1YS-ElWAo_iDWc-A-yt2CFrH9CLcvBlk7sxZPneNmVJR5jiuW_vyn-dWpTAo2chO6vhZxVmx2b5jzS_DjCLjCuEpSDBK5xTuNuVM_r1X6S-fzYo56SS0WrLIzKz0ycM2knERoOLN-5m0X-Lt-cODAOkxDCantiE"
+                alt="Modern architectural metal frame structure"
+                src="/images/about-frame.jpg"
               />
             </div>
           </div>

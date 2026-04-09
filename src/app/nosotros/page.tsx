@@ -66,8 +66,8 @@ export default function NosotrosPage() {
             <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
               <img
                 className="w-full h-full object-cover grayscale opacity-50"
-                alt="Modern minimalist law office interior"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3SJXcuAvy7v7FG-8aGU6Jg7O6E2rWG99opySJxSzo2GLgrs8Q_OR1IOrYqgICqsSSaYMm4ZWK82m1YPj4zSv33U3Ooa6XJCirQ7XHpWw1uvYt1YS-ElWAo_iDWc-A-yt2CFrH9CLcvBlk7sxZPneNmVJR5jiuW_vyn-dWpTAo2chO6vhZxVmx2b5jzS_DjCLjCuEpSDBK5xTuNuVM_r1X6S-fzYo56SS0WrLIzKz0ycM2knERoOLN-5m0X-Lt-cODAOkxDCantiE"
+                alt="Modern architectural metal frame structure"
+                src="/images/about-frame.jpg"
               />
             </div>
           </div>
