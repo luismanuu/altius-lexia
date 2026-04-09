@@ -13,6 +13,8 @@ const practices = [
     title: "Privacidad y Protección de Datos",
     headline: "Privacidad como Ventaja Competitiva.",
     body: "En un mercado regulado por la LOPDP, el cumplimiento no es un freno, es un generador de confianza.",
+    image: "/images/privacy-qr.jpg",
+    imageAlt: "QR codes close-up photography",
     services: [
       "Implementación integral de la Ley Orgánica de Protección de Datos Personales (Ecuador).",
       "Auditorías de impacto y Evaluaciones de Riesgo.",
@@ -25,6 +27,8 @@ const practices = [
     title: "Ciberseguridad Legal",
     headline: "Resiliencia ante la Amenaza Digital.",
     body: "La seguridad de la información es un imperativo jurídico. Protegemos tu responsabilidad legal frente a incidentes.",
+    image: "/images/cyber-screen.jpg",
+    imageAlt: "Computer screen with data and numbers",
     services: [
       "Gestión legal de brechas de seguridad y respuesta a incidentes.",
       "Protocolos de preservación de evidencia digital.",
@@ -37,6 +41,8 @@ const practices = [
     title: "Propiedad Intelectual para Tech",
     headline: "Blindaje de Activos Intangibles.",
     body: "Tu software y tu marca son tu mayor patrimonio. Los protegemos en Ecuador y en mercados globales.",
+    image: "/images/ip-coding.jpg",
+    imageAlt: "Computer coding screenshot",
     services: [
       "Protección de Software y Derechos de Autor.",
       "Estrategia de Secretos Industriales y Acuerdos de Confidencialidad (NDA).",
@@ -106,12 +112,17 @@ export default function PracticasPage() {
                 {/* Visual */}
                 <div className="w-full md:w-1/2">
                   <div
-                    className={`h-72 md:h-96 relative ${
+                    className={`h-72 md:h-96 relative overflow-hidden ${
                       i % 2 === 1
                         ? "border-b border-l border-outline-variant/30"
                         : "border-b border-r border-outline-variant/30"
                     }`}
                   >
+                    <img
+                      className="absolute inset-0 w-full h-full object-cover grayscale opacity-30"
+                      alt={p.imageAlt}
+                      src={p.image}
+                    />
                     <div
                       className={`absolute inset-0 ${
                         i % 2 === 1
@@ -119,9 +130,6 @@ export default function PracticasPage() {
                           : "bg-gradient-to-br from-primary-container/8 to-transparent"
                       }`}
                     />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-24 h-24 border border-primary-container/20 rotate-45" />
-                    </div>
                     <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8">
                       <span className="font-mono text-[10px] uppercase tracking-widest text-outline-variant">
                         {p.title}
