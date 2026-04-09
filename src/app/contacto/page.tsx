@@ -53,7 +53,7 @@ export default function ContactoPage() {
                   location_on
                 </span>
                 <span className="font-mono text-sm text-on-surface">
-                  Quito | Guayaquil | Miami
+                  Guayaquil | Los Angeles
                 </span>
               </div>
             </div>
@@ -157,9 +157,8 @@ export default function ContactoPage() {
       <section className="bg-surface-container-lowest py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { city: "Quito", address: "Av. República del Salvador N34-127", type: "Sede Principal" },
-            { city: "Guayaquil", address: "Av. Francisco de Orellana, Edificio Trade Building", type: "Oficina Regional" },
-            { city: "Miami", address: "1221 Brickell Avenue, Suite 900", type: "Operaciones LATAM" },
+            { city: "Guayaquil", address: "Av. Francisco de Orellana, Edificio Trade Building", type: "Sede Principal" },
+            { city: "Los Angeles", address: "Los Angeles, California", type: "Operaciones USA" },
           ].map((office) => (
             <div
               key={office.city}

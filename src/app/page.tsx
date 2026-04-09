@@ -319,7 +319,7 @@ export default function Home() {
                   location_on
                 </span>
                 <span className="text-surface font-mono text-sm">
-                  Quito | Guayaquil | Miami
+                  Guayaquil | Los Angeles
                 </span>
               </div>
             </div>
