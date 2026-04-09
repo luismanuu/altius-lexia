@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="bg-surface-container-lowest border-t border-outline-variant/15 w-full px-6 md:px-12 py-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col gap-2">
-          <img src="/images/logo.webp" alt="Altius Lexia" className="h-6 w-auto" />
+          <img src="/images/logo.webp" alt="Altius Lexia" className="h-10 w-auto" />
           <p className="text-sm font-outfit text-body-muted">
             &copy; 2024 Altius Lexia. Architectural Legal Systems.
           </p>

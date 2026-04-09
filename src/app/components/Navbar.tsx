@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <nav className="fixed top-0 z-50 flex justify-between items-center w-full px-6 md:px-8 py-4 bg-surface/90 backdrop-blur-md">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/images/logo.webp" alt="Altius Lexia" className="h-8 w-auto" />
+          <img src="/images/logo.webp" alt="Altius Lexia" className="h-14 w-auto" />
         </Link>
 
         <div className="hidden md:flex gap-8 items-center">
