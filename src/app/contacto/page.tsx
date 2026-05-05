@@ -45,7 +45,7 @@ export default function ContactoPage() {
                   call
                 </span>
                 <span className="font-mono text-sm text-on-surface">
-                  +593 2 123 4567
+                  +593 95 975 3741
                 </span>
               </div>
               <div className="flex items-center gap-4">
@@ -86,7 +86,7 @@ export default function ContactoPage() {
                   </label>
                   <input
                     type="text"
-                    placeholder="Juan Pérez"
+                    placeholder="Tu nombre completo"
                     className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                   />
                 </div>
@@ -96,7 +96,7 @@ export default function ContactoPage() {
                   </label>
                   <input
                     type="text"
-                    placeholder="Tu Startup S.A."
+                    placeholder="Empresa o startup"
                     className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                   />
                 </div>
@@ -108,7 +108,7 @@ export default function ContactoPage() {
                 </label>
                 <input
                   type="email"
-                  placeholder="juan@startup.com"
+                  placeholder="tunombre@empresa.com"
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                 />
               </div>

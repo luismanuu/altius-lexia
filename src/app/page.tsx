@@ -251,36 +251,10 @@ export default function Home() {
       <section className="bg-surface py-24 md:py-40 px-6 md:px-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24 items-center">
           <div className="w-full md:w-1/2">
-            <p className="font-instrument italic text-3xl md:text-6xl text-primary leading-tight mb-12">
+            <p className="font-instrument italic text-3xl md:text-6xl text-primary leading-tight">
               &ldquo;Donde la Ley y la Tecnología convergen para crear el futuro
               de la infraestructura empresarial.&rdquo;
             </p>
-            <div className="flex flex-wrap gap-8 md:gap-12 mt-12 md:mt-20">
-              <div className="border-l border-primary-container/15 pl-6">
-                <span className="block text-2xl font-bold text-primary">
-                  500+
-                </span>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                  Casos Exitosos
-                </span>
-              </div>
-              <div className="border-l border-primary-container/15 pl-6">
-                <span className="block text-2xl font-bold text-primary">
-                  12
-                </span>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                  Jurisdicciones
-                </span>
-              </div>
-              <div className="border-l border-primary-container/15 pl-6">
-                <span className="block text-2xl font-bold text-primary">
-                  24/7
-                </span>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                  Respuesta Ágil
-                </span>
-              </div>
-            </div>
           </div>
           <div className="w-full md:w-1/2 relative">
             <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
@@ -332,7 +306,7 @@ export default function Home() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Juan Pérez"
+                  placeholder="Tu nombre completo"
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                 />
               </div>
@@ -342,7 +316,7 @@ export default function Home() {
                 </label>
                 <input
                   type="email"
-                  placeholder="juan@startup.com"
+                  placeholder="tunombre@empresa.com"
                   className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
                 />
               </div>
