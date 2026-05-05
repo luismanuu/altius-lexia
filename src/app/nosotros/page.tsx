@@ -7,13 +7,6 @@ export const metadata: Metadata = {
     "Donde la Ley y la Tecnología convergen. Conoce la firma legal tech de Ecuador.",
 };
 
-const stats = [
-  { value: "500+", label: "Casos Exitosos" },
-  { value: "12", label: "Jurisdicciones" },
-  { value: "24/7", label: "Respuesta Ágil" },
-  { value: "3", label: "Especializaciones" },
-];
-
 const values = [
   {
     icon: "shield",
@@ -45,22 +38,10 @@ export default function NosotrosPage() {
             <span className="font-mono text-xs tracking-widest text-primary-container uppercase mb-6 block">
               Nuestra Firma
             </span>
-            <p className="font-instrument italic text-3xl md:text-5xl text-primary leading-tight mb-12">
+            <p className="font-instrument italic text-3xl md:text-5xl text-primary leading-tight">
               &ldquo;Donde la Ley y la Tecnología convergen para crear el futuro
               de la infraestructura empresarial.&rdquo;
             </p>
-            <div className="flex flex-wrap gap-8 md:gap-12">
-              {stats.map((s) => (
-                <div key={s.label} className="border-l border-primary-container/15 pl-6">
-                  <span className="block text-2xl font-bold text-primary">
-                    {s.value}
-                  </span>
-                  <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                    {s.label}
-                  </span>
-                </div>
-              ))}
-            </div>
           </div>
           <div className="w-full md:w-1/2 relative">
             <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
@@ -139,38 +120,10 @@ export default function NosotrosPage() {
               Liderazgo
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                name: "Directora de Privacidad",
-                role: "Data Privacy Lead",
-                focus: "LOPDP & Cloud Compliance",
-              },
-              {
-                name: "Director de Ciberseguridad",
-                role: "Cybersecurity Counsel",
-                focus: "Incident Response & Digital Forensics",
-              },
-              {
-                name: "Directora de IP",
-                role: "IP Strategy Lead",
-                focus: "Software Patents & Licensing",
-              },
-            ].map((member) => (
-              <div
-                key={member.role}
-                className="bg-pure-surface p-8 md:p-10 rounded-[1.25rem] shadow-sm"
-              >
-                <div className="w-full aspect-[3/4] bg-gradient-to-br from-surface/5 to-surface-container-high/10 rounded-sm mb-6" />
-                <h3 className="text-lg font-bold text-surface mb-1">
-                  {member.name}
-                </h3>
-                <p className="font-mono text-xs text-outline-variant uppercase tracking-wider mb-3">
-                  {member.role}
-                </p>
-                <p className="text-outline text-sm">{member.focus}</p>
-              </div>
-            ))}
+          <div className="bg-pure-surface p-10 md:p-16 rounded-[1.25rem] shadow-sm max-w-2xl">
+            <p className="font-instrument italic text-2xl md:text-3xl text-surface leading-relaxed">
+              Más detalles del equipo, próximamente.
+            </p>
           </div>
         </div>
       </section>
