@@ -94,7 +94,7 @@ export default function SectoresPage() {
                 key={s.num}
                 className={`${
                   s.large ? "md:col-span-6" : "md:col-span-4"
-                } bg-white p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors group`}
+                } bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors group`}
               >
                 <div>
                   <div className="flex items-center gap-4 mb-6">

@@ -21,7 +21,7 @@ export default function Home() {
           <div>
             <Link
               href="/contacto"
-              className="inline-block bg-primary-container text-[#1e1c0d] px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
+              className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
             >
               AGENDAR CONSULTA ESTRATÉGICA
             </Link>
@@ -63,7 +63,7 @@ export default function Home() {
                 text: "La ley no debe ser un cuello de botella. Implementamos soluciones dinámicas al ritmo del mercado.",
               },
             ].map((item) => (
-              <div key={item.title} className="border-t-[1px] border-primary-container pt-8">
+              <div key={item.title} className="border-t-[1px] border-primary-container/15 pt-8">
                 <h2 className="text-3xl font-bold text-surface mb-6">
                   {item.title}
                 </h2>
@@ -176,7 +176,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
-            <div className="md:col-span-6 bg-white p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between group hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between group hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-3xl md:text-4xl font-bold text-surface mb-4">
                   Startups
@@ -193,7 +193,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-4 bg-white p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   Fintech
@@ -210,7 +210,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-4 bg-white p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   SaaS
@@ -227,7 +227,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-6 bg-white p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   E-commerce
@@ -256,7 +256,7 @@ export default function Home() {
               de la infraestructura empresarial.&rdquo;
             </p>
             <div className="flex flex-wrap gap-8 md:gap-12 mt-12 md:mt-20">
-              <div className="border-l border-primary-container pl-6">
+              <div className="border-l border-primary-container/15 pl-6">
                 <span className="block text-2xl font-bold text-primary">
                   500+
                 </span>
@@ -264,7 +264,7 @@ export default function Home() {
                   Casos Exitosos
                 </span>
               </div>
-              <div className="border-l border-primary-container pl-6">
+              <div className="border-l border-primary-container/15 pl-6">
                 <span className="block text-2xl font-bold text-primary">
                   12
                 </span>
@@ -272,7 +272,7 @@ export default function Home() {
                   Jurisdicciones
                 </span>
               </div>
-              <div className="border-l border-primary-container pl-6">
+              <div className="border-l border-primary-container/15 pl-6">
                 <span className="block text-2xl font-bold text-primary">
                   24/7
                 </span>

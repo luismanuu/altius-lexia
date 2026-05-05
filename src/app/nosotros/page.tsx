@@ -51,7 +51,7 @@ export default function NosotrosPage() {
             </p>
             <div className="flex flex-wrap gap-8 md:gap-12">
               {stats.map((s) => (
-                <div key={s.label} className="border-l border-primary-container pl-6">
+                <div key={s.label} className="border-l border-primary-container/15 pl-6">
                   <span className="block text-2xl font-bold text-primary">
                     {s.value}
                   </span>
@@ -159,7 +159,7 @@ export default function NosotrosPage() {
             ].map((member) => (
               <div
                 key={member.role}
-                className="bg-white p-8 md:p-10 rounded-[1.25rem] shadow-sm"
+                className="bg-pure-surface p-8 md:p-10 rounded-[1.25rem] shadow-sm"
               >
                 <div className="w-full aspect-[3/4] bg-gradient-to-br from-surface/5 to-surface-container-high/10 rounded-sm mb-6" />
                 <h3 className="text-lg font-bold text-surface mb-1">
