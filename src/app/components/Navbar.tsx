@@ -33,7 +33,7 @@ export default function Navbar() {
                 aria-current={active ? "page" : undefined}
                 className={`transition-colors duration-300 ${
                   active
-                    ? "text-primary border-b border-primary-container pb-1"
+                    ? "text-primary border-b-2 border-primary-container pb-2"
                     : "text-body-muted hover:text-primary"
                 }`}
               >
@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/contacto"
-            className="hidden md:inline-block bg-primary-container text-on-primary-container px-6 py-2 font-bold hover:brightness-110 transition-all text-sm"
+            className="hidden md:inline-block bg-primary-container text-on-primary-container px-6 py-2 font-bold hover:brightness-110 active:scale-[0.98] transition-all text-sm"
           >
             Agendar Consulta
           </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
             : "opacity-0 pointer-events-none"
         }`}
       >
-        {links.map((link) => {
+        {links.map((link, i) => {
           const active = pathname === link.href;
           return (
             <Link
@@ -82,7 +82,14 @@ export default function Navbar() {
               href={link.href}
               onClick={() => setOpen(false)}
               aria-current={active ? "page" : undefined}
-              className={`text-2xl font-outfit font-semibold transition-colors ${
+              style={{
+                transitionDelay: open ? `${i * 50}ms` : "0ms",
+              }}
+              className={`text-2xl font-outfit font-semibold transition-[color,opacity,transform] duration-300 ${
+                open
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 -translate-y-2"
+              } ${
                 active ? "text-primary" : "text-body-muted hover:text-primary"
               }`}
             >

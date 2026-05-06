@@ -126,7 +126,7 @@ export default function FAQPage() {
           </p>
           <Link
             href="/contacto"
-            className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
+            className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all"
           >
             AGENDAR CONSULTA
           </Link>
