@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -118,10 +119,12 @@ export default function PracticasPage() {
                         : "border-b border-r border-outline-variant/15"
                     }`}
                   >
-                    <img
-                      className="absolute inset-0 w-full h-full object-cover grayscale opacity-30"
+                    <Image
+                      className="object-cover grayscale opacity-30"
                       alt={p.imageAlt}
                       src={p.image}
+                      fill
+                      sizes="(min-width: 768px) 50vw, 100vw"
                     />
                     <div
                       className={`absolute inset-0 ${

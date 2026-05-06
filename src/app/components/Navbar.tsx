@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const links = [
@@ -20,7 +21,14 @@ export default function Navbar() {
     <>
       <nav className="fixed top-0 z-50 flex justify-between items-center w-full px-6 md:px-8 py-4 bg-surface/90 backdrop-blur-md">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/images/logo.webp" alt="Altius Lexia" className="h-20 w-auto" />
+          <Image
+            src="/images/logo.webp"
+            alt="Altius Lexia"
+            width={994}
+            height={1023}
+            priority
+            className="h-20 w-auto"
+          />
         </Link>
 
         <div className="hidden md:flex gap-8 items-center">
