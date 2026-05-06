@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContactoForm from "../components/ContactoForm";
 
 export const metadata: Metadata = {
   title: "Contacto — Altius Lexia",
@@ -77,85 +78,15 @@ export default function ContactoPage() {
           </div>
 
           {/* Right: Form */}
-          <div className="w-full md:w-7/12 bg-surface-container p-8 md:p-16 rounded-sm shadow-xl">
-            <form className="space-y-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="group">
-                  <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                    Nombre Completo
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Tu nombre completo"
-                    className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
-                  />
-                </div>
-                <div className="group">
-                  <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                    Empresa
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Empresa o startup"
-                    className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Correo Corporativo
-                </label>
-                <input
-                  type="email"
-                  placeholder="tunombre@empresa.com"
-                  className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
-                />
-              </div>
-
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Asunto
-                </label>
-                <select className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all appearance-none">
-                  <option value="">Selecciona un servicio</option>
-                  <option value="privacidad">Privacidad de Datos</option>
-                  <option value="ciberseguridad">Ciberseguridad</option>
-                  <option value="ip">Propiedad Intelectual</option>
-                  <option value="otro">Otro</option>
-                </select>
-              </div>
-
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Mensaje
-                </label>
-                <textarea
-                  placeholder="Cuéntanos sobre tu proyecto y los desafíos legales que enfrentas..."
-                  rows={5}
-                  className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all resize-none"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 transition-all uppercase text-xs"
-              >
-                Enviar Solicitud
-              </button>
-
-              <p className="font-mono text-[10px] text-outline-variant text-center uppercase tracking-wider">
-                Su información está protegida bajo nuestras políticas de
-                privacidad
-              </p>
-            </form>
+          <div className="w-full md:w-7/12 bg-surface-container p-8 md:p-16 rounded-[1.25rem] shadow-xl">
+            <ContactoForm />
           </div>
         </div>
       </section>
 
       {/* Map placeholder */}
       <section className="bg-surface-container-lowest py-20 md:py-32 px-6 md:px-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
             { city: "Guayaquil", address: "Av. Francisco de Orellana, Edificio Trade Building", type: "Sede Principal" },
             { city: "Los Angeles", address: "Los Angeles, California", type: "Operaciones USA" },

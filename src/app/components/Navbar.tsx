@@ -24,19 +24,23 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:flex gap-8 items-center">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`transition-colors duration-300 ${
-                pathname === link.href
-                  ? "text-primary border-b border-primary-container pb-1"
-                  : "text-body-muted hover:text-primary"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {links.map((link) => {
+            const active = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={active ? "page" : undefined}
+                className={`transition-colors duration-300 ${
+                  active
+                    ? "text-primary border-b border-primary-container pb-1"
+                    : "text-body-muted hover:text-primary"
+                }`}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
 
         <div className="flex items-center gap-4">
@@ -70,18 +74,22 @@ export default function Navbar() {
             : "opacity-0 pointer-events-none"
         }`}
       >
-        {links.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            onClick={() => setOpen(false)}
-            className={`text-2xl font-outfit font-semibold transition-colors ${
-              pathname === link.href ? "text-primary" : "text-body-muted hover:text-primary"
-            }`}
-          >
-            {link.label}
-          </Link>
-        ))}
+        {links.map((link) => {
+          const active = pathname === link.href;
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              aria-current={active ? "page" : undefined}
+              className={`text-2xl font-outfit font-semibold transition-colors ${
+                active ? "text-primary" : "text-body-muted hover:text-primary"
+              }`}
+            >
+              {link.label}
+            </Link>
+          );
+        })}
         <Link
           href="/contacto"
           onClick={() => setOpen(false)}
