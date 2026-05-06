@@ -177,7 +177,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
-            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between group hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between group hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-3xl md:text-4xl font-bold text-surface mb-4">
                   Startups
@@ -194,7 +194,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   Fintech
@@ -211,7 +211,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   SaaS
@@ -228,7 +228,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-sm flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
+            <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
                   E-commerce
