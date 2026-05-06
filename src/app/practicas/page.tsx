@@ -114,8 +114,8 @@ export default function PracticasPage() {
                   <div
                     className={`h-72 md:h-96 relative overflow-hidden ${
                       i % 2 === 1
-                        ? "border-b border-l border-outline-variant/30"
-                        : "border-b border-r border-outline-variant/30"
+                        ? "border-b border-l border-outline-variant/15"
+                        : "border-b border-r border-outline-variant/15"
                     }`}
                   >
                     <img
