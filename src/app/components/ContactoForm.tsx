@@ -121,7 +121,7 @@ export default function ContactoForm() {
 
       <button
         type="submit"
-        className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 transition-all uppercase text-xs"
+        className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all uppercase text-xs"
       >
         Agendar Consulta
       </button>

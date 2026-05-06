@@ -98,8 +98,8 @@ export default function PracticasPage() {
                   </p>
                   <ul className="space-y-4">
                     {p.services.map((s) => (
-                      <li key={s} className="flex items-start gap-3">
-                        <span className="material-symbols-outlined text-primary-container mt-0.5 text-base">
+                      <li key={s} className="flex items-start gap-3 group/item">
+                        <span className="material-symbols-outlined text-primary-container mt-0.5 text-base transition-transform duration-300 group-hover/item:translate-x-1">
                           arrow_forward
                         </span>
                         <span className="text-on-surface text-base leading-relaxed">
@@ -155,7 +155,7 @@ export default function PracticasPage() {
           </p>
           <Link
             href="/contacto"
-            className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
+            className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all"
           >
             AGENDAR CONSULTA
           </Link>

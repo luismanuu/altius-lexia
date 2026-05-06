@@ -94,7 +94,7 @@ export default function SectoresPage() {
                 key={s.num}
                 className={`${
                   s.large ? "md:col-span-6" : "md:col-span-4"
-                } bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors group`}
+                } bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] ring-1 ring-transparent flex flex-col justify-between hover:bg-primary-container/5 hover:ring-primary-container/20 transition-[background-color,box-shadow] duration-300 group`}
               >
                 <div>
                   <div className="flex items-center gap-4 mb-6">
@@ -117,8 +117,8 @@ export default function SectoresPage() {
                   </p>
                   <ul className="space-y-3">
                     {s.details.map((d) => (
-                      <li key={d} className="flex items-start gap-3">
-                        <span className="material-symbols-outlined text-primary-container mt-0.5 text-sm">
+                      <li key={d} className="flex items-start gap-3 group/item">
+                        <span className="material-symbols-outlined text-primary-container mt-0.5 text-sm transition-transform duration-300 group-hover/item:translate-x-1">
                           check
                         </span>
                         <span className="text-outline text-sm leading-relaxed">
@@ -154,7 +154,7 @@ export default function SectoresPage() {
           <div className="w-full md:w-1/2 flex md:justify-end">
             <Link
               href="/contacto"
-              className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 transition-all"
+              className="inline-block bg-primary-container text-on-primary-container px-10 py-5 text-sm font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all"
             >
               AGENDAR CONSULTA
             </Link>
