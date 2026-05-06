@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/practicas", label: "Prácticas" },
   { href: "/sectores", label: "Sectores" },
-  { href: "/insights", label: "FAQ" },
+  { href: "/faq", label: "FAQ" },
   { href: "/nosotros", label: "Nosotros" },
   { href: "/contacto", label: "Contacto" },
 ];
@@ -44,7 +44,7 @@ export default function Navbar() {
             href="/contacto"
             className="hidden md:inline-block bg-primary-container text-on-primary-container px-6 py-2 font-bold hover:brightness-110 transition-all text-sm"
           >
-            Contacto
+            Agendar Consulta
           </Link>
 
           <button

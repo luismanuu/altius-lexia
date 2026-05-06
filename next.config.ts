@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
       { hostname: "lh3.googleusercontent.com" },
     ],
   },
+  async redirects() {
+    return [
+      { source: "/insights", destination: "/faq", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;
