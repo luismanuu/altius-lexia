@@ -269,6 +269,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── PILLARS / SCOPE ── */}
+      <section className="bg-surface-container-low py-20 md:py-32 px-6 md:px-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-16">
+            <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
+              Alcance
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 max-w-2xl">
+              Áreas de práctica para empresas de tecnología
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            {[
+              {
+                icon: "verified_user",
+                title: "Privacidad de Datos",
+                body: "Cumplimiento de la LOPDP, transferencias internacionales de datos, políticas de tratamiento y respuesta a incidentes que protegen el producto y la confianza del usuario.",
+              },
+              {
+                icon: "encrypted",
+                title: "Ciberseguridad",
+                body: "Contratos con proveedores cloud, cláusulas técnicas con SLA, manejo de brechas y cumplimiento técnico alineado con marcos internacionales.",
+              },
+              {
+                icon: "copyright",
+                title: "Propiedad Intelectual",
+                body: "Registro de marcas, protección de software como código fuente, NDAs estratégicos y estructuras de licenciamiento que escalan con el producto.",
+              },
+            ].map((p) => (
+              <div
+                key={p.title}
+                className="bg-surface-container-highest/30 p-8 md:p-10 rounded-[1.25rem] border border-outline-variant/15"
+              >
+                <span className="material-symbols-outlined text-primary-container text-3xl mb-6 block">
+                  {p.icon}
+                </span>
+                <h3 className="text-xl font-bold text-primary mb-4">
+                  {p.title}
+                </h3>
+                <p className="text-outline text-base leading-relaxed">
+                  {p.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── CONTACTO CTA ── */}
       <section className="bg-light-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24">
