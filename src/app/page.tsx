@@ -12,7 +12,7 @@ export default function Home() {
               Legal Infrastructure
             </span>
           </div>
-          <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-8 text-primary">
+          <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-tight mb-8 text-primary">
             El derecho a la velocidad de tu código.
           </h1>
           <p className="font-instrument italic text-xl md:text-3xl text-outline mb-12 leading-relaxed">
@@ -65,7 +65,7 @@ export default function Home() {
               },
             ].map((item) => (
               <div key={item.title} className="border-t-[1px] border-primary-container/15 pt-8">
-                <h2 className="text-3xl font-bold text-surface mb-6">
+                <h2 className="text-3xl font-bold tracking-tight text-surface mb-6">
                   {item.title}
                 </h2>
                 <p className="text-outline text-lg leading-relaxed">
@@ -84,7 +84,7 @@ export default function Home() {
             <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
               Core Expertise
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 text-primary">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight mt-4 text-primary">
               Áreas de Práctica
             </h2>
           </div>
@@ -172,14 +172,14 @@ export default function Home() {
             <span className="font-mono text-xs tracking-widest text-outline-variant uppercase">
               Verticals
             </span>
-            <h2 className="text-4xl font-bold text-surface mt-4">
+            <h2 className="text-4xl font-bold tracking-tight text-surface mt-4">
               Sectores Estratégicos
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
             <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between group hover:bg-primary-container/5 transition-colors">
               <div>
-                <h3 className="text-3xl md:text-4xl font-bold text-surface mb-4">
+                <h3 className="text-3xl md:text-4xl font-bold tracking-tight text-surface mb-4">
                   Startups
                 </h3>
                 <p className="text-outline text-lg max-w-md">
@@ -196,7 +196,7 @@ export default function Home() {
 
             <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-surface mb-4">
                   Fintech
                 </h3>
                 <p className="text-outline text-base">
@@ -213,7 +213,7 @@ export default function Home() {
 
             <div className="md:col-span-4 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-surface mb-4">
                   SaaS
                 </h3>
                 <p className="text-outline text-base">
@@ -230,7 +230,7 @@ export default function Home() {
 
             <div className="md:col-span-6 bg-pure-surface p-8 md:p-12 rounded-[1.25rem] shadow-[0_20px_40px_-15px_rgba(7,15,26,0.08)] flex flex-col justify-between hover:bg-primary-container/5 transition-colors">
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-surface mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-surface mb-4">
                   E-commerce
                 </h3>
                 <p className="text-outline text-base">
@@ -276,7 +276,7 @@ export default function Home() {
             <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
               Alcance
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 max-w-2xl">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-primary mt-4 max-w-2xl">
               Áreas de práctica para empresas de tecnología
             </h2>
           </div>
@@ -321,7 +321,7 @@ export default function Home() {
       <section className="bg-light-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24">
           <div className="w-full md:w-1/2">
-            <h2 className="text-4xl md:text-5xl font-bold text-surface mb-8 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-surface mb-8 leading-tight">
               Hablemos de tu siguiente hito.
             </h2>
             <p className="text-outline text-lg md:text-xl mb-12 max-w-md">

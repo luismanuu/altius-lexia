@@ -75,7 +75,7 @@ export default function SectoresPage() {
           <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
             Verticales de Industria
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mt-4 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary mt-4 mb-6">
             Sectores Estratégicos
           </h1>
           <p className="font-instrument italic text-xl md:text-2xl text-outline max-w-2xl leading-relaxed">
@@ -108,7 +108,7 @@ export default function SectoresPage() {
                   <h3
                     className={`${
                       s.large ? "text-3xl md:text-4xl" : "text-2xl md:text-3xl"
-                    } font-bold text-surface mb-4`}
+                    } font-bold tracking-tight text-surface mb-4`}
                   >
                     {s.title}
                   </h3>
@@ -143,7 +143,7 @@ export default function SectoresPage() {
       <section className="bg-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-24">
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-primary mb-6">
               Tu industria necesita asesoría especializada.
             </h2>
             <p className="text-outline text-lg leading-relaxed">

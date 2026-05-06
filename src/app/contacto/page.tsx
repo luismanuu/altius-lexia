@@ -16,7 +16,7 @@ export default function ContactoPage() {
           <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
             Conectemos
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mt-4 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary mt-4 mb-6">
             Hablemos de tu siguiente hito.
           </h1>
         </div>
