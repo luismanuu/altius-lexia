@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LandingForm from "./components/LandingForm";
 
 export default function Home() {
   return (
@@ -299,44 +300,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full md:w-1/2 bg-surface p-8 md:p-16 rounded-sm shadow-xl">
-            <form className="space-y-8">
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Nombre Completo
-                </label>
-                <input
-                  type="text"
-                  placeholder="Tu nombre completo"
-                  className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
-                />
-              </div>
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Email Corporativo
-                </label>
-                <input
-                  type="email"
-                  placeholder="tunombre@empresa.com"
-                  className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all"
-                />
-              </div>
-              <div className="group">
-                <label className="block font-mono text-[10px] uppercase tracking-widest text-outline-variant mb-2 group-focus-within:text-primary-container transition-colors">
-                  Mensaje
-                </label>
-                <textarea
-                  placeholder="Cuéntanos sobre tu proyecto..."
-                  rows={4}
-                  className="w-full bg-surface-container-high border-none text-on-surface py-4 px-4 focus:ring-2 focus:ring-primary-container/50 focus:outline-none transition-all resize-none"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 transition-all uppercase text-xs"
-              >
-                Enviar Solicitud
-              </button>
-            </form>
+            <LandingForm />
           </div>
         </div>
       </section>
