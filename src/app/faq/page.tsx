@@ -69,7 +69,7 @@ export default function FAQPage() {
           <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
             Preguntas Frecuentes
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mt-4 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary mt-4 mb-6">
             FAQ
           </h1>
           <p className="font-instrument italic text-xl md:text-2xl text-outline max-w-2xl leading-relaxed">
@@ -117,7 +117,7 @@ export default function FAQPage() {
       {/* CTA */}
       <section className="bg-light-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-surface mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-surface mb-6">
             ¿No encontraste tu respuesta?
           </h2>
           <p className="text-outline text-lg mb-10 max-w-xl mx-auto">
