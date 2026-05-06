@@ -44,7 +44,7 @@ export default function NosotrosPage() {
             </p>
           </div>
           <div className="w-full md:w-1/2 relative">
-            <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
+            <div className="aspect-[4/5] bg-surface-container-high rounded-[1.25rem] overflow-hidden border border-outline-variant/15">
               <img
                 className="w-full h-full object-cover grayscale opacity-50"
                 alt="Modern architectural metal frame structure"

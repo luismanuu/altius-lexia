@@ -104,7 +104,7 @@ export default function Home() {
                   usuario.
                 </p>
               </div>
-              <div className="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/30 relative">
+              <div className="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/15 relative">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
@@ -128,7 +128,7 @@ export default function Home() {
                   preventivo contra amenazas digitales complejas.
                 </p>
               </div>
-              <div className="w-full md:w-1/2 h-64 border-b border-l border-outline-variant/30 relative">
+              <div className="w-full md:w-1/2 h-64 border-b border-l border-outline-variant/15 relative">
                 <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
@@ -152,7 +152,7 @@ export default function Home() {
                   activos intangibles en la frontera de la innovación.
                 </p>
               </div>
-              <div className="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/30 relative">
+              <div className="w-full md:w-1/2 h-64 border-b border-r border-outline-variant/15 relative">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-container/5 to-transparent" />
                 <img
                   className="w-full h-full object-cover opacity-20 grayscale"
@@ -258,7 +258,7 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full md:w-1/2 relative">
-            <div className="aspect-[4/5] bg-surface-container-high rounded-sm overflow-hidden border border-outline-variant/20">
+            <div className="aspect-[4/5] bg-surface-container-high rounded-[1.25rem] overflow-hidden border border-outline-variant/15">
               <img
                 className="w-full h-full object-cover grayscale opacity-50"
                 alt="Modern architectural metal frame structure"
@@ -347,7 +347,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 bg-surface p-8 md:p-16 rounded-sm shadow-xl">
+          <div className="w-full md:w-1/2 bg-surface p-8 md:p-16 rounded-[1.25rem] shadow-xl">
             <LandingForm />
           </div>
         </div>
