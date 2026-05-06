@@ -159,25 +159,6 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Team Placeholder */}
-      <section className="bg-light-surface py-20 md:py-32 px-6 md:px-24">
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-16">
-            <span className="font-mono text-xs tracking-widest text-outline-variant uppercase">
-              El Equipo
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-surface mt-4">
-              Liderazgo
-            </h2>
-          </div>
-          <div className="bg-pure-surface p-10 md:p-16 rounded-[1.25rem] shadow-sm max-w-2xl">
-            <p className="font-instrument italic text-2xl md:text-3xl text-surface leading-relaxed">
-              Más detalles del equipo, próximamente.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="bg-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto text-center">
