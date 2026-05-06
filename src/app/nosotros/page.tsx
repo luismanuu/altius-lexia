@@ -77,6 +77,56 @@ export default function NosotrosPage() {
         </div>
       </section>
 
+      {/* Methodology */}
+      <section className="bg-surface-container-low py-20 md:py-32 px-6 md:px-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-16">
+            <span className="font-mono text-xs tracking-widest text-primary-container uppercase">
+              Proceso
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4">
+              Cómo trabajamos
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
+            {[
+              {
+                num: "01",
+                title: "Diagnóstico",
+                body: "Mapeo legal del producto e identificación de gaps regulatorios prioritarios.",
+              },
+              {
+                num: "02",
+                title: "Estrategia",
+                body: "Plan priorizado, alineado con tu roadmap de producto y ritmo del equipo.",
+              },
+              {
+                num: "03",
+                title: "Implementación",
+                body: "Documentos, contratos y políticas listas para uso, sin jerga inflada.",
+              },
+              {
+                num: "04",
+                title: "Acompañamiento",
+                body: "Soporte continuo: respuesta a incidentes y actualización ante cambios regulatorios.",
+              },
+            ].map((step) => (
+              <div key={step.num}>
+                <span className="font-mono text-xs tracking-widest text-primary-container">
+                  {step.num}
+                </span>
+                <h3 className="text-xl font-bold text-primary mt-4 mb-3">
+                  {step.title}
+                </h3>
+                <p className="text-outline text-base leading-relaxed">
+                  {step.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="bg-surface py-20 md:py-32 px-6 md:px-24">
         <div className="max-w-7xl mx-auto">
