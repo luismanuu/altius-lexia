@@ -10,14 +10,37 @@ const labelCls =
 export default function ContactoForm() {
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState("");
+  const [isError, setIsError] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
+    setSubmitting(true);
+    setStatus("");
+    setIsError(false);
     const data = new FormData(e.currentTarget);
     const payload = Object.fromEntries(data.entries());
-    console.info("[contact-form] phase-1 stub:", payload);
-    setStatus("Mensaje recibido. Te responderemos pronto.");
-    formRef.current?.reset();
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const json = (await res.json()) as { ok: boolean; error?: string };
+      if (res.ok && json.ok) {
+        setStatus("Mensaje enviado. Te contactaremos pronto.");
+        formRef.current?.reset();
+      } else {
+        setIsError(true);
+        setStatus(json.error ?? "No se pudo enviar el mensaje. Inténtalo de nuevo.");
+      }
+    } catch {
+      setIsError(true);
+      setStatus("No se pudo enviar el mensaje. Verifica tu conexión.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -114,16 +137,17 @@ export default function ContactoForm() {
         role="status"
         aria-live="polite"
         aria-atomic="true"
-        className="font-mono text-xs text-primary-container min-h-[1.25rem]"
+        className={`font-mono text-xs min-h-[1.25rem] ${isError ? "text-error" : "text-primary-container"}`}
       >
         {status}
       </div>
 
       <button
         type="submit"
-        className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all uppercase text-xs"
+        disabled={submitting}
+        className="w-full bg-primary-container text-on-primary-container py-5 font-bold tracking-widest hover:brightness-110 active:scale-[0.98] transition-all uppercase text-xs disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        Agendar Consulta
+        {submitting ? "Enviando..." : "Agendar Consulta"}
       </button>
 
       <p className="font-mono text-[10px] text-outline-variant text-center uppercase tracking-wider">
