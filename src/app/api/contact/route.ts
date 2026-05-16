@@ -11,13 +11,14 @@ const subjectLabels: Record<string, string> = {
   otro: "Otro",
 };
 
+const honeypotSchema = z.object({ website: z.string().min(1).max(500) });
+
 const schema = z.object({
   name: z.string().trim().min(2).max(100),
   email: z.email().max(254),
   message: z.string().trim().min(10).max(2000),
   company: z.string().trim().max(100).optional(),
   subject: z.string().trim().max(50).optional(),
-  website: z.string().max(0).optional(),
 });
 
 export async function POST(req: Request) {
@@ -35,16 +36,16 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "Body inválido" }, { status: 400 });
   }
 
+  if (honeypotSchema.safeParse(body).success) {
+    return NextResponse.json({ ok: true });
+  }
+
   const parsed = schema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json(
       { ok: false, error: parsed.error.issues[0]?.message ?? "Datos inválidos" },
       { status: 400 }
     );
-  }
-
-  if (parsed.data.website) {
-    return NextResponse.json({ ok: true });
   }
 
   const { name, email, message, company, subject } = parsed.data;
