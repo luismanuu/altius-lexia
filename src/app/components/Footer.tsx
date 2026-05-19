@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-surface-container-lowest w-full px-6 md:px-12 py-12">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-        <div className="flex flex-col gap-2">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center gap-8">
+        <div className="flex flex-col gap-2 items-center md:items-start text-center md:text-left">
           <Image
             src="/images/logo.webp"
             alt="Altius Lexia"
