@@ -101,7 +101,7 @@ export default function SectoresPage() {
                     <span className="font-mono text-xs text-outline-variant">
                       {s.num}
                     </span>
-                    <span className="bg-secondary-container/30 text-on-secondary-container px-3 py-1 font-mono text-[10px] uppercase tracking-widest rounded-sm">
+                    <span className="bg-secondary-container/15 text-secondary-container px-3 py-1 font-mono text-[10px] uppercase tracking-widest rounded-sm">
                       {s.tag}
                     </span>
                   </div>
